@@ -1,0 +1,402 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    margin: 0%;
+    border-radius: 0%;
+    
+
+}
+
+
+.Div1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0%;
+    margin: 0%;
+    background-image: url("./iifl.png");
+    /* background-repeat: no-repeat; */
+    height: 800px;
+    background-size: cover;
+    
+
+}
+
+.Div2{
+    background-color: rgb(246, 230, 250);
+    border-radius: 0%;
+    margin: 0%;
+    height: 600px;
+
+}
+
+.Div2Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Div2Card1{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+}
+
+
+
+.Div2Card2{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+}
+.Div2Card3{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+    
+}
+
+
+
+.Div3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0%;
+    margin: 0%;
+    height: 650px;
+}
+
+
+
+.Div3Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Div3Card1{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+}
+
+
+
+.Div3Card2{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+}
+.Div3Card3{
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+    
+}
+
+
+
+
+.Div4{
+    background-color: rgb(249, 230, 255);
+    border-radius: 0%;
+    margin: 0%;
+    height: 300px;
+    
+
+}
+
+.Div4Img1{
+    grid-area: Div4Img1;
+}
+
+.Div4Txt1{
+    grid-area: Div4Txt1;
+}
+
+.Div4Box1{
+    grid-area: Div4Box1;
+    display: grid;
+    grid-template-areas: 
+    "Div4Img1 Div4Txt1";
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+    background-color: aliceblue;
+    padding-inline: 15px;
+    margin-right: 0%;
+    
+    
+}
+
+
+.Div4Img2{
+    grid-area: Div4Img2;
+}
+
+.Div4Txt2{
+    grid-area: Div4Txt2;
+}
+
+.Div4Box2{
+    display: grid;
+    grid-area: Div4Box2;
+    grid-template-areas: 
+    "Div4Img2 Div4Txt2";
+    width: 50%;
+    margin-right: 15%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+    background-color: aliceblue;
+    padding-inline: 15px;
+    margin-left: 0%;
+}
+
+
+
+.Div4Container{
+    display: grid;
+    grid-template-areas: 
+    "Div4Box1 Div4Box2";
+    
+    
+}
+
+.Boldtxt{
+    font-size: medium;
+    font-weight: bold;
+}
+.Lighttxt{
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+.Div5{
+    background-color: rgb(255, 233, 223);
+    margin: 0%;
+    height: 500px;
+}
+
+.Div5Heading{
+    padding-top: 20px;
+}
+
+.Accordion{
+    margin: 60px auto;
+    width:600px;
+
+}
+
+.Accordion li{
+    list-style: none;
+    width: 100%;
+    margin:20px;
+    padding: 10px;
+    border-radius: 8px;
+    background:white;
+    box-shadow: 10px 10px 5px rgb(128, 124, 124);
+}
+
+
+.Accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+label::before{
+    content: '➕';
+    margin-right:10px;
+    font-size: 24px;
+    font-weight: 600px;
+
+}
+
+
+input[type="radio"]{
+    display: none;
+
+}
+
+
+.Accordion .content{
+    color: black;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+
+}
+
+
+.Accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.Div6{
+    background-color: rgb(53, 24, 96);
+    border-radius: 0%;
+    margin: 0%;
+    height: 180px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Div6Container{
+    display: grid;
+    grid-template-areas: 
+    "Div6Col1 Div6Col2 Div6Col3 Div6Col4 Div6Col5"
+    ;
+}
+
+.Div6Col1{
+    grid-area: Div6Col1;
+    background-color: rgb(53, 24, 96);
+    
+}
+.Div6Col2{
+    grid-area: Div6Col2;
+    background-color: rgb(53, 24, 96);
+}
+.Div6Col3{
+    grid-area: Div6Col3;
+    background-color: rgb(53, 24, 96);
+}
+.Div6Col4{
+    grid-area: Div6Col4;
+    background-color: rgb(53, 24, 96);
+}
+.Div6Col5{
+    grid-area: Div6Col5;
+    background-color: rgb(53, 24, 96);
+}
+
+
+
+
+
+
+.S1{
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+
+
+#inputarea{
+    margin-right: 0px;
+    padding: 0%;
+    margin-top: 2%;
+    padding-block: 9px;
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    
+    
+}
+
+#searchbtn{
+    margin-top: 2%;
+    margin-left: 0px;
+    background-color: rgb(255, 120, 36);
+    padding: 10px;
+    width: 5%;
+    border-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border: 2px solid rgb(255, 255, 255);
+    
+
+}
+
+
+
+
+
+
+
+.Div1Heading{
+    
+    margin: 0%;
+    padding-top: 8%;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    font-size:xx-large;
+}
+
+
+.Div2Heading{
+    border-radius: 0%;
+    margin: 0%;
+    padding: 3%
+}
+
+
+.Div3Heading{
+    border-radius: 0%;
+    margin: 0%;
+    padding: 3%
+}
+.Div4Heading{
+    border-radius: 0%;
+    margin: 0%;
+}
+.Div5Heading{
+    border-radius: 0%;
+    margin: 0%;
+}
+.Div1Heading{
+    border-radius: 0%;
+    margin: 0%;
+}
+.Div6Heading{
+    border-radius: 0%;
+    margin: 0%;
+}
